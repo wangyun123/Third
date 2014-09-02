@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{15F3210A-8B20-30F1-B8CA-BA5C67E66F79}</ProjectGuid>
+    <RootNamespace>qtcommercialchartqml</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;" Label="Configuration">
+    <PlatformToolSet>v110</PlatformToolSet>
+    <OutputDirectory>..\bin\QtCommercial\Chart\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>..\build\plugin\</IntermediateDirectory>
+    <PrimaryOutput>qtcommercialchartqml</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;" Label="Configuration">
+    <PlatformToolSet>v110</PlatformToolSet>
+    <OutputDirectory>..\bin\QtCommercial\Chart\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>..\build\plugin\</IntermediateDirectory>
+    <PrimaryOutput>qtcommercialchartqml</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" />
+  </ImportGroup>
+  <ImportGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists(&apos;$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props&apos;)" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">..\bin\QtCommercial\Chart\</OutDir>
+    <IntDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">..\build\plugin\</IntDir>
+    <TargetName Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">qtcommercialchartqml</TargetName>
+    <IgnoreImportLibrary Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">false</LinkIncremental>
+    <PostBuildEventUseInBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">true</PostBuildEventUseInBuild>
+    <OutDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">..\bin\QtCommercial\Chart\</OutDir>
+    <IntDir Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">..\build\plugin\</IntDir>
+    <TargetName Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">qtcommercialchartqml</TargetName>
+    <IgnoreImportLibrary Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</IgnoreImportLibrary>
+    <PostBuildEventUseInBuild Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">
+    <ClCompile>
+      <AdditionalIncludeDirectories>&quot;..\include&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include\QtDeclarative&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include\QtWidgets&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include\QtScript&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include\QtGui&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include\QtCore&quot;;&quot;..\build\plugin&quot;;C:\qt\qt5.3.0\5.3\msvc2012_opengl\mkspecs\win32-msvc2012;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>..\build\plugin\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>..\build\plugin\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QTQUICK2;QT_NO_DEBUG;QT_PLUGIN;QT_DECLARATIVE_LIB;QT_WIDGETS_LIB;QT_SCRIPT_LIB;QT_GUI_LIB;QT_CORE_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName></ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;gdi32.lib;user32.lib;C:\Users\wy\Desktop\qcharts_tp\lib\QtCommercialChart.lib;$(QTDIR)\lib\Qt5Declarative.lib;$(QTDIR)\lib\Qt5Widgets.lib;$(QTDIR)\lib\Qt5Script.lib;$(QTDIR)\lib\Qt5Gui.lib;$(QTDIR)\lib\Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;C:\Users\wy\Desktop\qcharts_tp\lib;C:\qt\qt5.3.0\5.3\msvc2012_opengl\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\qtcommercialchartqml.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QTQUICK2;QT_NO_DEBUG;QT_PLUGIN;QT_DECLARATIVE_LIB;QT_WIDGETS_LIB;QT_SCRIPT_LIB;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy /y C:\Users\wy\Desktop\qcharts_tp\qmlplugin\qmldir C:\Users\wy\Desktop\qcharts_tp\bin\QtCommercial\Chart</Command>
+      <Message>copy /y C:\Users\wy\Desktop\qcharts_tp\qmlplugin\qmldir C:\Users\wy\Desktop\qcharts_tp\bin\QtCommercial\Chart</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">
+    <ClCompile>
+      <AdditionalIncludeDirectories>&quot;..\include&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include\QtDeclarative&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include\QtWidgets&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include\QtScript&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include\QtGui&quot;;&quot;C:\qt\qt5.3.0\5.3\msvc2012_opengl\include\QtCore&quot;;&quot;..\build\plugin&quot;;C:\qt\qt5.3.0\5.3\msvc2012_opengl\mkspecs\win32-msvc2012;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>..\build\plugin\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>..\build\plugin\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QTQUICK2;QT_PLUGIN;QT_DECLARATIVE_LIB;QT_WIDGETS_LIB;QT_SCRIPT_LIB;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;gdi32.lib;user32.lib;C:\Users\wy\Desktop\qcharts_tp\lib\QtCommercialChartd.lib;$(QTDIR)\lib\Qt5Declaratived.lib;$(QTDIR)\lib\Qt5Widgetsd.lib;$(QTDIR)\lib\Qt5Scriptd.lib;$(QTDIR)\lib\Qt5Guid.lib;$(QTDIR)\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;C:\Users\wy\Desktop\qcharts_tp\lib;C:\qt\qt5.3.0\5.3\msvc2012_opengl\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <OutputFile>$(OutDir)\qtcommercialchartqml.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QTQUICK2;QT_PLUGIN;QT_DECLARATIVE_LIB;QT_WIDGETS_LIB;QT_SCRIPT_LIB;QT_GUI_LIB;QT_CORE_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy /y C:\Users\wy\Desktop\qcharts_tp\qmlplugin\qmldir C:\Users\wy\Desktop\qcharts_tp\bin\QtCommercial\Chart</Command>
+      <Message>copy /y C:\Users\wy\Desktop\qcharts_tp\qmlplugin\qmldir C:\Users\wy\Desktop\qcharts_tp\bin\QtCommercial\Chart</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="declarativeareaseries.cpp" />
+    <ClCompile Include="declarativebarseries.cpp" />
+    <ClCompile Include="declarativechart.cpp" />
+    <ClCompile Include="declarativelineseries.cpp" />
+    <ClCompile Include="declarativepieseries.cpp" />
+    <ClCompile Include="declarativescatterseries.cpp" />
+    <ClCompile Include="declarativesplineseries.cpp" />
+    <ClCompile Include="declarativexypoint.cpp" />
+    <ClCompile Include="declarativexyseries.cpp" />
+    <ClCompile Include="plugin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="declarativeareaseries.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">declarativeareaseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativeareaseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativeareaseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC declarativeareaseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativeareaseries.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">declarativeareaseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativeareaseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativeareaseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC declarativeareaseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativeareaseries.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="declarativebarseries.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">declarativebarseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativebarseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativebarseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC declarativebarseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativebarseries.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">declarativebarseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativebarseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativebarseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC declarativebarseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativebarseries.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="declarativechart.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">declarativechart.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativechart.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativechart.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC declarativechart.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativechart.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">declarativechart.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativechart.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativechart.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC declarativechart.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativechart.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="declarativelineseries.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">declarativelineseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativelineseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativelineseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC declarativelineseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativelineseries.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">declarativelineseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativelineseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativelineseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC declarativelineseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativelineseries.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="declarativepieseries.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">declarativepieseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativepieseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativepieseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC declarativepieseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativepieseries.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">declarativepieseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativepieseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativepieseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC declarativepieseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativepieseries.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="declarativescatterseries.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">declarativescatterseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativescatterseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativescatterseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC declarativescatterseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativescatterseries.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">declarativescatterseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativescatterseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativescatterseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC declarativescatterseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativescatterseries.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="declarativesplineseries.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">declarativesplineseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativesplineseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativesplineseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC declarativesplineseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativesplineseries.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">declarativesplineseries.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativesplineseries.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativesplineseries.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC declarativesplineseries.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativesplineseries.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="declarativexypoint.h">
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">declarativexypoint.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativexypoint.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativexypoint.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC declarativexypoint.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativexypoint.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">declarativexypoint.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore declarativexypoint.h -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativexypoint.cpp</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC declarativexypoint.h</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\moc_declarativexypoint.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="declarativexyseries.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\wy\Desktop\qcharts_tp\build\plugin\plugin.moc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">plugin.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore plugin.cpp -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\plugin.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">MOC plugin.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Release|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\plugin.moc;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">plugin.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\qt\qt5.3.0\5.3\msvc2012_opengl\bin\moc.exe  -DUNICODE -DWIN32 -DQTQUICK2 -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_WIDGETS_LIB -DQT_SCRIPT_LIB -DQT_GUI_LIB -DQT_CORE_LIB -D_MSC_VER=1700 -D_WIN32 -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/mkspecs/win32-msvc2012 -IC:/Users/wy/Desktop/qcharts_tp/qmlplugin -IC:/Users/wy/Desktop/qcharts_tp/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtDeclarative -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtWidgets -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtScript -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtGui -IC:/qt/qt5.3.0/5.3/msvc2012_opengl/include/QtCore plugin.cpp -o C:\Users\wy\Desktop\qcharts_tp\build\plugin\plugin.moc</Command>
+      <Message Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">MOC plugin.cpp</Message>
+      <Outputs Condition="&apos;$(Configuration)|$(Platform)&apos;==&apos;Debug|Win32&apos;">C:\Users\wy\Desktop\qcharts_tp\build\plugin\plugin.moc;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

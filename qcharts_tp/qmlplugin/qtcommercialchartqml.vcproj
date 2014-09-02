@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="qtcommercialchartqml"
+	ProjectGUID="{AAD5BA58-5FC8-3F0B-9DAB-0D47F432059B}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="..\build\plugin\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;$(QTDIR)\include\QtCore&quot;,&quot;$(QTDIR)\include\QtGui&quot;,&quot;$(QTDIR)\include\QtDeclarative&quot;,&quot;$(QTDIR)\include&quot;,&quot;..\include&quot;,&quot;$(QTDIR)\include\ActiveQt&quot;,&quot;..\build\plugin&quot;,c:\Qt\4.7.4\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="..\build\plugin\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="..\build\plugin\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_PLUGIN,QT_DECLARATIVE_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="e:\Develop\Qt\qcharts_tp\lib\QtCommercialChartd.lib $(QTDIR)\lib\QtDeclaratived4.lib $(QTDIR)\lib\QtGuid4.lib $(QTDIR)\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="$(QTDIR)\lib,e:\Develop\Qt\qcharts_tp\lib,c:\Qt\4.7.4\lib"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="..\bin\QtCommercial\Chart\qtcommercialchartqml.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy /y E:\Develop\Qt\qcharts_tp\qmlplugin\qmldir E:\Develop\Qt\qcharts_tp\bin\QtCommercial\Chart"
+				Description="copy /y E:\Develop\Qt\qcharts_tp\qmlplugin\qmldir E:\Develop\Qt\qcharts_tp\bin\QtCommercial\Chart" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_PLUGIN,QT_DECLARATIVE_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="2"
+			IntermediateDirectory="..\build\plugin\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;$(QTDIR)\include\QtCore&quot;,&quot;$(QTDIR)\include\QtGui&quot;,&quot;$(QTDIR)\include\QtDeclarative&quot;,&quot;$(QTDIR)\include&quot;,&quot;..\include&quot;,&quot;$(QTDIR)\include\ActiveQt&quot;,&quot;..\build\plugin&quot;,c:\Qt\4.7.4\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="..\build\plugin\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="0"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="..\build\plugin\"
+				Optimization ="2"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_DECLARATIVE_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="e:\Develop\Qt\qcharts_tp\lib\QtCommercialChart.lib $(QTDIR)\lib\QtDeclarative4.lib $(QTDIR)\lib\QtGui4.lib $(QTDIR)\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="$(QTDIR)\lib,e:\Develop\Qt\qcharts_tp\lib,c:\Qt\4.7.4\lib"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="..\bin\QtCommercial\Chart\qtcommercialchartqml.dll"
+				ProgramDatabaseFile=""
+				SubSystem="0"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="copy /y E:\Develop\Qt\qcharts_tp\qmlplugin\qmldir E:\Develop\Qt\qcharts_tp\bin\QtCommercial\Chart"
+				Description="copy /y E:\Develop\Qt\qcharts_tp\qmlplugin\qmldir E:\Develop\Qt\qcharts_tp\bin\QtCommercial\Chart" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_DECLARATIVE_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="declarativeareaseries.cpp" />
+			<File
+				RelativePath="declarativebarseries.cpp" />
+			<File
+				RelativePath="declarativechart.cpp" />
+			<File
+				RelativePath="declarativelineseries.cpp" />
+			<File
+				RelativePath="declarativepieseries.cpp" />
+			<File
+				RelativePath="declarativescatterseries.cpp" />
+			<File
+				RelativePath="declarativesplineseries.cpp" />
+			<File
+				RelativePath="declarativexypoint.cpp" />
+			<File
+				RelativePath="declarativexyseries.cpp" />
+			<File
+				RelativePath="plugin.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="declarativeareaseries.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativeareaseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativeareaseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativeareaseries.cpp"
+						Description="MOC declarativeareaseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativeareaseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativeareaseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativeareaseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativeareaseries.cpp"
+						Description="MOC declarativeareaseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativeareaseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="declarativebarseries.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativebarseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativebarseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativebarseries.cpp"
+						Description="MOC declarativebarseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativebarseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativebarseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativebarseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativebarseries.cpp"
+						Description="MOC declarativebarseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativebarseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="declarativechart.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativechart.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativechart.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativechart.cpp"
+						Description="MOC declarativechart.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativechart.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativechart.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativechart.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativechart.cpp"
+						Description="MOC declarativechart.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativechart.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="declarativelineseries.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativelineseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativelineseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativelineseries.cpp"
+						Description="MOC declarativelineseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativelineseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativelineseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativelineseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativelineseries.cpp"
+						Description="MOC declarativelineseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativelineseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="declarativepieseries.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativepieseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativepieseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativepieseries.cpp"
+						Description="MOC declarativepieseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativepieseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativepieseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativepieseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativepieseries.cpp"
+						Description="MOC declarativepieseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativepieseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="declarativescatterseries.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativescatterseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativescatterseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativescatterseries.cpp"
+						Description="MOC declarativescatterseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativescatterseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativescatterseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativescatterseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativescatterseries.cpp"
+						Description="MOC declarativescatterseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativescatterseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="declarativesplineseries.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativesplineseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativesplineseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativesplineseries.cpp"
+						Description="MOC declarativesplineseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativesplineseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativesplineseries.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativesplineseries.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativesplineseries.cpp"
+						Description="MOC declarativesplineseries.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativesplineseries.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="declarativexypoint.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativexypoint.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativexypoint.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativexypoint.cpp"
+						Description="MOC declarativexypoint.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativexypoint.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;declarativexypoint.h"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 declarativexypoint.h -o e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativexypoint.cpp"
+						Description="MOC declarativexypoint.h"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\moc_declarativexypoint.cpp"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="declarativexyseries.h" />
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="e:\Develop\Qt\qcharts_tp\build\plugin\plugin.moc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;plugin.cpp"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 plugin.cpp -o e:\Develop\Qt\qcharts_tp\build\plugin\plugin.moc"
+						Description="MOC plugin.cpp"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\plugin.moc"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;plugin.cpp"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_DECLARATIVE_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtDeclarative&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;..\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;..\build\plugin&quot; -Ic:\Qt\4.7.4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 plugin.cpp -o e:\Develop\Qt\qcharts_tp\build\plugin\plugin.moc"
+						Description="MOC plugin.cpp"
+						Outputs="e:\Develop\Qt\qcharts_tp\build\plugin\plugin.moc"
+						Path="c:\qt\4.7.4\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,4 @@
+QMAKE_PRL_BUILD_DIR = D:/Code/iSeisMountain/Third/qcharts_tp/build/src-Desktop_Qt_5_3_MSVC2013_OpenGL_64bit-Release
+QMAKE_PRO_INPUT = src.pro
+QMAKE_PRL_TARGET = QtCommercialChartd
+QMAKE_PRL_CONFIG = lex yacc debug exceptions depend_includepath testcase_targets import_plugins import_qpa_plugin incremental_off windows qt warn_on link_prl incremental flat precompile_header autogen_precompile_source debug_and_release debug_and_release_target embed_manifest_dll embed_manifest_exe copy_dir_files shared rtti no_plugin_manifest qpa win32 msvc debug DebugBuild Debug build_pass create_prl debug DebugBuild Debug build_pass have_target dll exclusive_builds debug_info no_autoqmake thread uic opengl moc resources

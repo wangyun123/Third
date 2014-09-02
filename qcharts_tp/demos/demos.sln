@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chartthemes", "C:/Users/wy/Desktop/qcharts_tp/demos/chartthemes\chartthemes.vcxproj", "{AE80139E-B750-3DED-AD30-68D3E7E086B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "piechartcustomization", "C:/Users/wy/Desktop/qcharts_tp/demos/piechartcustomization\piechartcustomization.vcxproj", "{91F7CB79-552C-36AA-990A-AD702CF3CC9B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmlchart", "C:/Users/wy/Desktop/qcharts_tp/demos/qmlchart\qmlchart.vcxproj", "{85207259-0B36-3578-B8DD-2EC50344123E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamicspline", "C:/Users/wy/Desktop/qcharts_tp/demos/dynamicspline\dynamicspline.vcxproj", "{F710143B-0C8B-342A-84A0-4C2E47417BFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE80139E-B750-3DED-AD30-68D3E7E086B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE80139E-B750-3DED-AD30-68D3E7E086B8}.Debug|Win32.Build.0 = Debug|Win32
+		{AE80139E-B750-3DED-AD30-68D3E7E086B8}.Release|Win32.ActiveCfg = Release|Win32
+		{AE80139E-B750-3DED-AD30-68D3E7E086B8}.Release|Win32.Build.0 = Release|Win32
+		{91F7CB79-552C-36AA-990A-AD702CF3CC9B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{91F7CB79-552C-36AA-990A-AD702CF3CC9B}.Debug|Win32.Build.0 = Debug|Win32
+		{91F7CB79-552C-36AA-990A-AD702CF3CC9B}.Release|Win32.ActiveCfg = Release|Win32
+		{91F7CB79-552C-36AA-990A-AD702CF3CC9B}.Release|Win32.Build.0 = Release|Win32
+		{85207259-0B36-3578-B8DD-2EC50344123E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85207259-0B36-3578-B8DD-2EC50344123E}.Debug|Win32.Build.0 = Debug|Win32
+		{85207259-0B36-3578-B8DD-2EC50344123E}.Release|Win32.ActiveCfg = Release|Win32
+		{85207259-0B36-3578-B8DD-2EC50344123E}.Release|Win32.Build.0 = Release|Win32
+		{F710143B-0C8B-342A-84A0-4C2E47417BFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F710143B-0C8B-342A-84A0-4C2E47417BFD}.Debug|Win32.Build.0 = Debug|Win32
+		{F710143B-0C8B-342A-84A0-4C2E47417BFD}.Release|Win32.ActiveCfg = Release|Win32
+		{F710143B-0C8B-342A-84A0-4C2E47417BFD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

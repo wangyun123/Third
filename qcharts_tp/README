@@ -1,0 +1,60 @@
+--------------------------------
+Commercial Charts Add-on Preview
+--------------------------------
+
+Whats in Qt Commercial Charts
+=============================
+
+Directory structure:
+
+src/
+    Source code of the Qt Commercial Charts
+qmlplugin/
+    QML bindings for the charts
+examples/
+    Some examples of using Qt Commercial Charts
+demos/
+    More versatile example applications showing how to customize charts, 
+    combine several chart types and implement interaction in charts
+doc/
+    Documentation
+licenses/
+    Licensing infromation
+
+Building
+========
+
+Configure project with qmake:
+    qmake CONFIG+=release
+
+Build poject with make:
+    (Linux) make
+    (Windows with MinGw) mingw32-make
+    (Visual Studio) namke
+
+If you want to install the libraries to your Qt library directory use:
+    make install
+
+If you want to uninstall the libraries
+    make uninstall
+
+Documentation
+=============
+
+The documentation can be generated with "make docs".  It will be placed
+into "doc/html" in the build directory.
+
+KNOWN ISSUES
+============
+ * The preview version of Qt Commercial Charts is still under development
+      and thus should not be used in e.g. product development
+ * The Charts API might change between the Preview and first official release
+ * Some areas will be refactored before the first official release
+ * Qt Designer plugin is missing
+ * Enable/disable tooltip is missing from the API
+ * Mutliple axis are not suported at the moment.
+ * Logartmic, polar axis are not supported at the moment.
+ * Getting data from QAbstractItemModel is not feature complete.
+ * Interlnal layout hadnling is not working properly.
+ * The QML Bindings are still under development and to be considered as early draft
+ * All the current QML APIs are shown in qmlchart demo app

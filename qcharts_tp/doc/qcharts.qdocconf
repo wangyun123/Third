@@ -1,0 +1,46 @@
+include(compat.qdocconf)
+include(macros.qdocconf)
+include(qchart-html-template.qdocconf)
+
+project = QtCommercialCharts
+description = Library for creating charts
+
+sourcedirs = ../src \
+             ../examples \
+             ./src
+headerdirs = ../src \
+             ../examples
+exampledirs = ../ \
+              ../src \
+              ../examples 
+              
+excludefiles += ../examples/linechart/linechart.pro
+
+sources.fileextensions = *.cpp *.qdoc *.mm *.qml
+headers.fileextensions = *.h *.ch *.h++ *.hh *.hpp *.hxx
+examples.fileextensions = *.cpp *.h *.js *.xq *.svg *.xml *.ui *.qhp *.qhcp *.qml
+examples.imageextensions = *.png *.jpeg *.jpg *.gif *.mng
+
+imagedirs = ./images
+outputdir = ./html
+
+
+Cpp.ignoretokens        = QTCOMMERCIALCHART_EXPORT \
+                          QTCOMMERCIALCHART_END_NAMESPACE \
+                          QTCOMMERCIALCHART_BEGIN_NAMESPACE
+Cpp.ignoredirectives    = Q_DECLARE_HANDLE \
+                          Q_DECLARE_INTERFACE \
+                          Q_DECLARE_METATYPE \
+                          Q_DECLARE_OPERATORS_FOR_FLAGS \
+                          Q_DECLARE_PRIVATE \
+                          Q_DECLARE_PUBLIC \
+                          Q_DECLARE_SHARED \
+                          Q_DECLARE_TR_FUNCTIONS \
+                          Q_DECLARE_TYPEINFO \
+                          Q_DISABLE_COPY \
+                          QT_FORWARD_DECLARE_CLASS \
+                          Q_DUMMY_COMPARISON_OPERATOR \
+                          Q_ENUMS \
+                          Q_FLAGS \
+                          Q_INTERFACES \
+                          __attribute__

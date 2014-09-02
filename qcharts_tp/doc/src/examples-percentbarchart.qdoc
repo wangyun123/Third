@@ -1,0 +1,17 @@
+/*!
+    \example examples/percentbarchart
+    \title PercentBarChart Example
+    \subtitle
+
+    The example shows how to create simple percent bar chart. Percent bar chart shows the data in set as percentage of
+    all sets, per category.
+
+    \image examples_percentbarchart.png
+
+    Creating percent bar chart is just like creating a regular \l {BarChart Example} {bar chart}, except that for a
+    percent bar chart, we use QPercentBarSeries api instead of QBarSeries. Also, in the
+    \l {BarChart Example} {bar chart} we used nice numbers algorithm to make the y axis numbering look better. With
+    percent bar chart there is no need for that, because the maximum y-axis value is always 100.
+
+    \snippet ../examples/percentbarchart/main.cpp 3
+*/

@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chartwidgettest", "C:/Users/wy/Desktop/qcharts_tp/test/chartwidgettest\chartwidgettest.vcxproj", "{5AA58065-1507-3791-A479-EDE43B0415C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wavechart", "C:/Users/wy/Desktop/qcharts_tp/test/wavechart\wavechart.vcxproj", "{8A745C3F-9E9F-3E54-8323-0E8DB9A5E154}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gdpbarchart", "C:/Users/wy/Desktop/qcharts_tp/test/gdpbarchart\gdpbarchart.vcxproj", "{3DBD14B0-0390-3B70-B60D-586B302CC913}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tablemodelchart", "C:/Users/wy/Desktop/qcharts_tp/test/tablemodelchart\tablemodelchart.vcxproj", "{DFCBB3BB-60EE-30ED-9961-996AFA6DF499}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA58065-1507-3791-A479-EDE43B0415C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5AA58065-1507-3791-A479-EDE43B0415C1}.Debug|Win32.Build.0 = Debug|Win32
+		{5AA58065-1507-3791-A479-EDE43B0415C1}.Release|Win32.ActiveCfg = Release|Win32
+		{5AA58065-1507-3791-A479-EDE43B0415C1}.Release|Win32.Build.0 = Release|Win32
+		{8A745C3F-9E9F-3E54-8323-0E8DB9A5E154}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A745C3F-9E9F-3E54-8323-0E8DB9A5E154}.Debug|Win32.Build.0 = Debug|Win32
+		{8A745C3F-9E9F-3E54-8323-0E8DB9A5E154}.Release|Win32.ActiveCfg = Release|Win32
+		{8A745C3F-9E9F-3E54-8323-0E8DB9A5E154}.Release|Win32.Build.0 = Release|Win32
+		{3DBD14B0-0390-3B70-B60D-586B302CC913}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DBD14B0-0390-3B70-B60D-586B302CC913}.Debug|Win32.Build.0 = Debug|Win32
+		{3DBD14B0-0390-3B70-B60D-586B302CC913}.Release|Win32.ActiveCfg = Release|Win32
+		{3DBD14B0-0390-3B70-B60D-586B302CC913}.Release|Win32.Build.0 = Release|Win32
+		{DFCBB3BB-60EE-30ED-9961-996AFA6DF499}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DFCBB3BB-60EE-30ED-9961-996AFA6DF499}.Debug|Win32.Build.0 = Debug|Win32
+		{DFCBB3BB-60EE-30ED-9961-996AFA6DF499}.Release|Win32.ActiveCfg = Release|Win32
+		{DFCBB3BB-60EE-30ED-9961-996AFA6DF499}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

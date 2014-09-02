@@ -1,0 +1,15 @@
+/*!
+    \example examples/stackedbarchart
+    \title StackedBarChart Example
+    \subtitle
+
+    The example shows how to create simple stacked bar chart. Stacked bar chart shows the data in sets as bars that are
+    stacked on top of each other. The stacking is done per category.
+
+    \image examples_stackedbarchart.png
+	
+    Creating stacked bar chart is just like creating a regular \l {BarChart Example} {bar chart}, except that for a
+    stacked bar chart, we use QStackedBarSeries api instead of QBarSeries.
+
+    \snippet ../examples/stackedbarchart/main.cpp 3
+*/

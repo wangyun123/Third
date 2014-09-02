@@ -1,0 +1,30 @@
+/*!
+     \example examples/linechart
+     \title LineChart Example
+     \subtitle
+
+     The example shows how to create simple line chart.
+
+    \image examples_linechart.png
+    
+    To create line chart, QLineSeries instance is needed. Let's create one. 
+
+    \snippet ../examples/linechart/main.cpp 1
+
+    Then we add data to series. We can use add() member function or use stream operator.  
+
+    \snippet ../examples/linechart/main.cpp 2
+
+    To present the data on the char we need QChart instance. We add the series to it and set the title of the chart.
+
+    \snippet ../examples/linechart/main.cpp 3
+
+    Then we create a QChartView object with QChart as a parameter. This way we don't need to create QGraphicsView scene ourselves. We also set the Antialiasing on to have the rendered lines look nicer. 
+    
+    \snippet ../examples/linechart/main.cpp 4 
+
+    Chart is ready to be shown.
+
+    \snippet ../examples/linechart/main.cpp 5
+    
+*/

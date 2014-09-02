@@ -1,0 +1,104 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "areachart", "C:/Users/wy/Desktop/qcharts_tp/examples/areachart\areachart.vcxproj", "{F3EF6549-9D99-3F7E-8EF3-5C16A3768750}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "barchart", "C:/Users/wy/Desktop/qcharts_tp/examples/barchart\barchart.vcxproj", "{C2BFDF04-D3CD-3212-8060-C50BB33A7092}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "customchart", "C:/Users/wy/Desktop/qcharts_tp/examples/customchart\customchart.vcxproj", "{2B86E2F0-072A-3873-877F-7CAE13DDB751}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linechart", "C:/Users/wy/Desktop/qcharts_tp/examples/linechart\linechart.vcxproj", "{5C875A16-F85F-3F75-A355-06054D2B0751}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "percentbarchart", "C:/Users/wy/Desktop/qcharts_tp/examples/percentbarchart\percentbarchart.vcxproj", "{69D505DC-291B-358E-B64B-0FB41FBC6A20}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "piechart", "C:/Users/wy/Desktop/qcharts_tp/examples/piechart\piechart.vcxproj", "{66F31B44-4007-3BAF-92BA-A561081A010C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "piechartdrilldown", "C:/Users/wy/Desktop/qcharts_tp/examples/piechartdrilldown\piechartdrilldown.vcxproj", "{E7859C66-065E-3C5F-8F4F-247DA79FC684}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "presenterchart", "C:/Users/wy/Desktop/qcharts_tp/examples/presenterchart\presenterchart.vcxproj", "{F2B62714-163A-3345-BE9C-EBCD5705A058}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scatterchart", "C:/Users/wy/Desktop/qcharts_tp/examples/scatterchart\scatterchart.vcxproj", "{1F24424F-3E20-306D-ADEF-CD06AAEAA113}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scatterinteractions", "C:/Users/wy/Desktop/qcharts_tp/examples/scatterinteractions\scatterinteractions.vcxproj", "{62A9A133-2295-3FA0-BB24-BE625A55E6DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "splinechart", "C:/Users/wy/Desktop/qcharts_tp/examples/splinechart\splinechart.vcxproj", "{5E0DEE3E-095B-3B4F-8EF6-1DA7F16108B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stackedbarchart", "C:/Users/wy/Desktop/qcharts_tp/examples/stackedbarchart\stackedbarchart.vcxproj", "{B5C71F9A-A0C5-33B5-9868-1C0E9DB45846}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stackedbarchartdrilldown", "C:/Users/wy/Desktop/qcharts_tp/examples/stackedbarchartdrilldown\stackedbarchartdrilldown.vcxproj", "{D86D1202-AA5A-310A-B71E-7B06A8BDE845}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zoomlinechart", "C:/Users/wy/Desktop/qcharts_tp/examples/zoomlinechart\zoomlinechart.vcxproj", "{44E830B2-48A6-3A0F-8A1F-B6C6F5BB69DB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modeldata", "C:/Users/wy/Desktop/qcharts_tp/examples/modeldata\modeldata.vcxproj", "{D6347748-5D6B-3508-A809-3888FE230D74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3EF6549-9D99-3F7E-8EF3-5C16A3768750}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F3EF6549-9D99-3F7E-8EF3-5C16A3768750}.Debug|Win32.Build.0 = Debug|Win32
+		{F3EF6549-9D99-3F7E-8EF3-5C16A3768750}.Release|Win32.ActiveCfg = Release|Win32
+		{F3EF6549-9D99-3F7E-8EF3-5C16A3768750}.Release|Win32.Build.0 = Release|Win32
+		{C2BFDF04-D3CD-3212-8060-C50BB33A7092}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2BFDF04-D3CD-3212-8060-C50BB33A7092}.Debug|Win32.Build.0 = Debug|Win32
+		{C2BFDF04-D3CD-3212-8060-C50BB33A7092}.Release|Win32.ActiveCfg = Release|Win32
+		{C2BFDF04-D3CD-3212-8060-C50BB33A7092}.Release|Win32.Build.0 = Release|Win32
+		{2B86E2F0-072A-3873-877F-7CAE13DDB751}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2B86E2F0-072A-3873-877F-7CAE13DDB751}.Debug|Win32.Build.0 = Debug|Win32
+		{2B86E2F0-072A-3873-877F-7CAE13DDB751}.Release|Win32.ActiveCfg = Release|Win32
+		{2B86E2F0-072A-3873-877F-7CAE13DDB751}.Release|Win32.Build.0 = Release|Win32
+		{5C875A16-F85F-3F75-A355-06054D2B0751}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C875A16-F85F-3F75-A355-06054D2B0751}.Debug|Win32.Build.0 = Debug|Win32
+		{5C875A16-F85F-3F75-A355-06054D2B0751}.Release|Win32.ActiveCfg = Release|Win32
+		{5C875A16-F85F-3F75-A355-06054D2B0751}.Release|Win32.Build.0 = Release|Win32
+		{69D505DC-291B-358E-B64B-0FB41FBC6A20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69D505DC-291B-358E-B64B-0FB41FBC6A20}.Debug|Win32.Build.0 = Debug|Win32
+		{69D505DC-291B-358E-B64B-0FB41FBC6A20}.Release|Win32.ActiveCfg = Release|Win32
+		{69D505DC-291B-358E-B64B-0FB41FBC6A20}.Release|Win32.Build.0 = Release|Win32
+		{66F31B44-4007-3BAF-92BA-A561081A010C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66F31B44-4007-3BAF-92BA-A561081A010C}.Debug|Win32.Build.0 = Debug|Win32
+		{66F31B44-4007-3BAF-92BA-A561081A010C}.Release|Win32.ActiveCfg = Release|Win32
+		{66F31B44-4007-3BAF-92BA-A561081A010C}.Release|Win32.Build.0 = Release|Win32
+		{E7859C66-065E-3C5F-8F4F-247DA79FC684}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7859C66-065E-3C5F-8F4F-247DA79FC684}.Debug|Win32.Build.0 = Debug|Win32
+		{E7859C66-065E-3C5F-8F4F-247DA79FC684}.Release|Win32.ActiveCfg = Release|Win32
+		{E7859C66-065E-3C5F-8F4F-247DA79FC684}.Release|Win32.Build.0 = Release|Win32
+		{F2B62714-163A-3345-BE9C-EBCD5705A058}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2B62714-163A-3345-BE9C-EBCD5705A058}.Debug|Win32.Build.0 = Debug|Win32
+		{F2B62714-163A-3345-BE9C-EBCD5705A058}.Release|Win32.ActiveCfg = Release|Win32
+		{F2B62714-163A-3345-BE9C-EBCD5705A058}.Release|Win32.Build.0 = Release|Win32
+		{1F24424F-3E20-306D-ADEF-CD06AAEAA113}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F24424F-3E20-306D-ADEF-CD06AAEAA113}.Debug|Win32.Build.0 = Debug|Win32
+		{1F24424F-3E20-306D-ADEF-CD06AAEAA113}.Release|Win32.ActiveCfg = Release|Win32
+		{1F24424F-3E20-306D-ADEF-CD06AAEAA113}.Release|Win32.Build.0 = Release|Win32
+		{62A9A133-2295-3FA0-BB24-BE625A55E6DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62A9A133-2295-3FA0-BB24-BE625A55E6DA}.Debug|Win32.Build.0 = Debug|Win32
+		{62A9A133-2295-3FA0-BB24-BE625A55E6DA}.Release|Win32.ActiveCfg = Release|Win32
+		{62A9A133-2295-3FA0-BB24-BE625A55E6DA}.Release|Win32.Build.0 = Release|Win32
+		{5E0DEE3E-095B-3B4F-8EF6-1DA7F16108B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E0DEE3E-095B-3B4F-8EF6-1DA7F16108B6}.Debug|Win32.Build.0 = Debug|Win32
+		{5E0DEE3E-095B-3B4F-8EF6-1DA7F16108B6}.Release|Win32.ActiveCfg = Release|Win32
+		{5E0DEE3E-095B-3B4F-8EF6-1DA7F16108B6}.Release|Win32.Build.0 = Release|Win32
+		{B5C71F9A-A0C5-33B5-9868-1C0E9DB45846}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5C71F9A-A0C5-33B5-9868-1C0E9DB45846}.Debug|Win32.Build.0 = Debug|Win32
+		{B5C71F9A-A0C5-33B5-9868-1C0E9DB45846}.Release|Win32.ActiveCfg = Release|Win32
+		{B5C71F9A-A0C5-33B5-9868-1C0E9DB45846}.Release|Win32.Build.0 = Release|Win32
+		{D86D1202-AA5A-310A-B71E-7B06A8BDE845}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D86D1202-AA5A-310A-B71E-7B06A8BDE845}.Debug|Win32.Build.0 = Debug|Win32
+		{D86D1202-AA5A-310A-B71E-7B06A8BDE845}.Release|Win32.ActiveCfg = Release|Win32
+		{D86D1202-AA5A-310A-B71E-7B06A8BDE845}.Release|Win32.Build.0 = Release|Win32
+		{44E830B2-48A6-3A0F-8A1F-B6C6F5BB69DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44E830B2-48A6-3A0F-8A1F-B6C6F5BB69DB}.Debug|Win32.Build.0 = Debug|Win32
+		{44E830B2-48A6-3A0F-8A1F-B6C6F5BB69DB}.Release|Win32.ActiveCfg = Release|Win32
+		{44E830B2-48A6-3A0F-8A1F-B6C6F5BB69DB}.Release|Win32.Build.0 = Release|Win32
+		{D6347748-5D6B-3508-A809-3888FE230D74}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6347748-5D6B-3508-A809-3888FE230D74}.Debug|Win32.Build.0 = Debug|Win32
+		{D6347748-5D6B-3508-A809-3888FE230D74}.Release|Win32.ActiveCfg = Release|Win32
+		{D6347748-5D6B-3508-A809-3888FE230D74}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
